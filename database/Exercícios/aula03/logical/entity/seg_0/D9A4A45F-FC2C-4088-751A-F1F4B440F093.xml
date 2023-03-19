@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9A4A45F-FC2C-4088-751A-F1F4B440F093" name="Pedido">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-18 02:02:09 UTC</createdTime>
+<ownerDesignName>aula03</ownerDesignName>
+<engineerTo>
+<item key="146E90EF-E959-1B8A-C158-99720B0A4D78" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PEDIDO" id="12AC0955-C482-A02A-7C90-39BF8391B9B1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-18 02:03:54 UTC</createdTime>
+<ownerDesignName>aula03</ownerDesignName>
+<engineerTo>
+<item key="146E90EF-E959-1B8A-C158-99720B0A4D78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A46FCE8B-9A87-3241-DFD0-FF8D7DF0FDEC" name="Pedido PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-18 02:05:09 UTC</createdTime>
+<ownerDesignName>aula03</ownerDesignName>
+<engineerTo>
+<item key="146E90EF-E959-1B8A-C158-99720B0A4D78" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12AC0955-C482-A02A-7C90-39BF8391B9B1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
