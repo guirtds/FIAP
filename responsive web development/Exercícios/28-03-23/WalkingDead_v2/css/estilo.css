@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    background-image: url(../img/fundoTelaA.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffffbd;
+}
+
+#container{
+    width: 800px;
+    border: 8px solid #070204;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #851d0a36;
+    border-radius: 20px;
+}
+
+#banner{
+    border: 3px solid tomato;
+    max-width: 100%;
+}
+
+h1, h2, h3{
+    font-family: Impact, sans-serif;
+}
+
+h1{
+    font-size: 35px;
+    color: tomato;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 25px;
+    background-color: #2705059c;
+    color: black;
+    padding: 5px 5px 5px 10px;
+}
+
+h3{
+    font-size: 15px;
+    color: #040101;
+    background-color: #7c4141;
+    display: inline-block;
+    padding: 5px 5px 5px 10px;
+}
+
+hr{display: none;}
+
+p{
+    margin: 20px;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+p span{
+    background-color: antiquewhite;
+    font-weight: bold;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+table td{
+    padding: 20px;
+}
+
+table img{
+    border-radius: 50px;
+    border: 3px solid tomato;
+}
+
+table img:hover{
+    border: 7px solid #040101;
+}
