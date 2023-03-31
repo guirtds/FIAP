@@ -1,0 +1,19 @@
+body {
+    background-attachment: fixed;
+    background-image: url("../img/fundo.jpg");
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    border: solid 4px #000066;
+    border-radius: 8px;
+}
+
+.person {
+    display: flex;
+}
+
+.person img {
+    border-radius: 50%;
+}
