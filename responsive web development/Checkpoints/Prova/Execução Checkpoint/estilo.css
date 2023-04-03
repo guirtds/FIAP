@@ -62,6 +62,18 @@ section {
     padding: 24px;
 }
 
+.list a:hover {
+    color: #f44c2d;
+}
+
+.list a {
+    color: #003399;
+}
+
+.list li {
+    padding: 8px;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
