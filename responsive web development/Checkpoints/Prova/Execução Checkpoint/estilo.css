@@ -25,7 +25,7 @@ section {
 
 .banner {
     text-align: center;
-    position: top;
+    margin-bottom: -105px;
 }
 
 .content {
