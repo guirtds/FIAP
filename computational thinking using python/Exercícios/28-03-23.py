@@ -85,4 +85,54 @@ elif n3 == n2 < n1:
 '''
 4)Solicite ao usuário (separadamente) o mês do ano, e o dia atual,
 diga também em qual estação estamos
+Outono: de 22 de março a 21 de junho
+Inverno: de 22 de junho a 23 de setembro
+Primavera: de 24 de setembro a 21 de dezembro
+Verão: de 22 de dezembro a 21 de março
 '''
+
+mes = input("Diga o mês do ano atualmente:").upper()
+dia = input("Diga o dia atual:")
+
+if mes == "JANEIRO" or mes == "FEVEREIRO":
+    print("Verão!") 
+
+elif mes == "MARÇO":
+    if dia <= 21:
+        print("Verão!")
+
+    else:
+        print("Outono!")
+
+
+if mes == "ABRIL" or mes == "MAIO":
+    print("Outono!") 
+
+elif mes == "JUNHO":
+    if dia <= 21:
+        print("Outono!")
+
+    else:
+        print("Inverno!")
+
+
+if mes == "JULHO" or mes == "AGOSTO":
+    print("Inverno!") 
+
+elif mes == "SETEMBRO":
+    if dia <= 21:
+        print("Inverno!")
+
+    else:
+        print("Primavera!")
+
+if mes == "OUTUBRO" or mes == "NOVEMBRO":
+    print("Primavera!") 
+
+elif mes == "DEZEMBRO":
+    if dia <= 21:
+        print("Primavera!")
+
+    else:
+        print("Verão!")
+
