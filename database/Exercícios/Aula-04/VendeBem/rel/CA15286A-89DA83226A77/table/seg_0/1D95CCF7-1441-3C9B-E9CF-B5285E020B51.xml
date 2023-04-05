@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D95CCF7-1441-3C9B-E9CF-B5285E020B51" name="Produto">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>9E6A0CC5-8F71-2A7D-6EF6-B295C474D99F</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_produto" id="3BE62FE0-37A9-A33B-2EB4-D4606C915C45">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>D7C3475A-6104-EAF1-A7D2-B36E0CA47D6D</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_produto" id="84EEAE3D-3506-D5CB-DEBB-43785B7FA89B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>03954C32-1EC6-0655-32CA-ACD396E6E7AD</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qntd_consumida" id="A2AC018E-62F4-1720-D1FE-2ECF15B2996B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>24A05182-09C7-2C24-1376-32F1A660EC70</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="D424C54A-DD58-68B7-53F5-6FEFF65AC5C3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>0768394E-2F24-1C4F-8579-94EE685130D4</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco_unitario" id="603A40C9-D497-543B-53B1-A61F5A5E6469">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>80867C74-11E9-007D-1649-D7280D80EFB7</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

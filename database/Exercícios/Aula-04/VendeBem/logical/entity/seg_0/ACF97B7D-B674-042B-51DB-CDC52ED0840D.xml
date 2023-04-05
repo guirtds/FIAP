@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACF97B7D-B674-042B-51DB-CDC52ED0840D" name="Estabelecimento">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:53:23 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo estabelecimento" id="748D592D-6585-FF69-F6BD-03CC638C0674">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:54:20 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razao social" id="B8011623-7A1C-C396-0A9F-79D221C8D844">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:58:04 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="8A7CA000-57CC-2F9F-10AF-473AF595B2F5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:02:20 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="incrição estadual" id="87DA7CFB-7F24-7FBB-7F2B-032DC42FFB71">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:02:32 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="389F19B8-310F-4B6B-83F3-78C2E4CA3C34">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:02:55 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone empresa" id="67375010-FDBC-B1EE-C508-28B587380CC1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:03:00 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

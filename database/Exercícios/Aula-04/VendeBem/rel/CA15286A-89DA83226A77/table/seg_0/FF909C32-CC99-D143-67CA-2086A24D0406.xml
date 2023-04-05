@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF909C32-CC99-D143-67CA-2086A24D0406" name="Estabelecimento">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>ACF97B7D-B674-042B-51DB-CDC52ED0840D</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_estabelecimento" id="5E082146-3321-B0C3-2A7F-61FB2BD1F40C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>748D592D-6585-FF69-F6BD-03CC638C0674</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="D7C7BD60-A693-6903-2E6D-8B1EDBB3EC59">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>B8011623-7A1C-C396-0A9F-79D221C8D844</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="5B2B379D-E11D-0F01-4502-10B8285CCEC6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>8A7CA000-57CC-2F9F-10AF-473AF595B2F5</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="incrição_estadual" id="105FFBFC-C4F0-291A-ED5A-B7842F50F6A3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>87DA7CFB-7F24-7FBB-7F2B-032DC42FFB71</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="8D036DDC-71AA-7BF1-594A-76064ADD8EB4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>389F19B8-310F-4B6B-83F3-78C2E4CA3C34</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_empresa" id="AE33A32B-03A0-CD22-C599-FD265F35F81C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>67375010-FDBC-B1EE-C508-28B587380CC1</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

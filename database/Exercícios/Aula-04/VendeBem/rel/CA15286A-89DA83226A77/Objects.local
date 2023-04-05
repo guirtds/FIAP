@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="FF909C32-CC99-D143-67CA-2086A24D0406" name="Estabelecimento" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CA15286A-4C3D-903B-AD3E-89DA83226A77" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="B2CAED67-0C4F-CE9A-9BA5-70CAB6C403FC" name="Pedido" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CA15286A-4C3D-903B-AD3E-89DA83226A77" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="1D95CCF7-1441-3C9B-E9CF-B5285E020B51" name="Produto" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CA15286A-4C3D-903B-AD3E-89DA83226A77" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

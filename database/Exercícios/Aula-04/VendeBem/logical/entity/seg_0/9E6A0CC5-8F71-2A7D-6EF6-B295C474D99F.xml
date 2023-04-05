@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E6A0CC5-8F71-2A7D-6EF6-B295C474D99F" name="Produto">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:11:20 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo produto" id="D7C3475A-6104-EAF1-A7D2-B36E0CA47D6D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:11:36 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome produto" id="03954C32-1EC6-0655-32CA-ACD396E6E7AD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:11:44 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qntd consumida" id="24A05182-09C7-2C24-1376-32F1A660EC70">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:11:54 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="0768394E-2F24-1C4F-8579-94EE685130D4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:12:05 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco unitario" id="80867C74-11E9-007D-1649-D7280D80EFB7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:12:08 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="CA15286A-4C3D-903B-AD3E-89DA83226A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

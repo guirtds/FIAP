@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2CAED67-0C4F-CE9A-9BA5-70CAB6C403FC" name="Pedido">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>37BAE53F-F85D-2284-4644-1EDDA84A23B8</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_do_pedido" id="7B2145DC-FDDE-A12E-8F24-C53948CF120E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>53FEB35B-A4FE-F986-52FB-D1E4DDA11585</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora_min_atend" id="22D997EC-DBAE-FA98-A803-9C7590CAB961">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>64B45E09-9530-7138-09A1-3DB807463C70</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_atendente" id="53780775-97EC-6F71-B3FB-D3988D9A9AE6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>EFA75F38-8797-48C7-0AF2-5214448F5B27</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="forma_pagamento" id="9A24BE74-C5F8-42D3-9E2D-0F5F2C7895E2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>DB0A03C3-C285-E223-0B14-EE257DA8B6F5</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_cliente" id="54CBEABA-5F7F-257B-06AF-414A46D3B854">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>FECFD9A7-84B8-610B-04BC-9FA957398CD7</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qntd_pessoas" id="CC464B67-BBD2-4A17-AAD1-C6D42C78F4AD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>0E614C1C-2F37-40EB-4226-FAA086A52895</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora-fim_atend" id="75C3C81B-A51D-F172-F88D-FE993B0A1C0F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>FA0566DC-FB65-5A22-38DF-4431C34C1F50</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_total_venda" id="326155C4-C6E8-FEB7-1AB7-B195859652A9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>A76BC911-7222-F1AD-B939-95E8AC8D21DF</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_total_desconto" id="C2908B61-360F-FAEB-9DAB-AD452BEF0246">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>96BCE4F2-15E2-9A5C-854D-0CCB95D095FB</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_mesa" id="C5190648-1CE9-2CD9-6BE4-CBFDA0C9A38D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:39 UTC</createdTime>
+<generatorID>C67C8F41-B509-478A-BEBA-47958B229942</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
