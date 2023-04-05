@@ -1,0 +1,26 @@
+
+#menu {
+    background-color: rgb(0 0 0 / 56%);
+    border-radius: 30px;
+    padding: 2px;
+}
+
+#menu li {
+    display: inline-block;
+    line-height: 26px;
+    text-align: center;
+    width: 81px;
+    margin-right: 10px;
+    font-size: 19px;
+    font-family: arial, tahoma;
+}
+
+#menu li:hover {
+    background-color: #950a0aa8;
+    border-radius: 10px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: red;
+}

@@ -12,7 +12,7 @@ body{
 
 #container{
     width: 800px;
-    border: 8px solid #070204;
+    border: 4px solid #070204;
     margin: 0 auto;
     padding: 20px;
     background-color: #851d0a36;
@@ -49,6 +49,8 @@ h3{
     background-color: #7c4141;
     display: inline-block;
     padding: 5px 5px 5px 10px;
+    border: 4px solid black;
+    border-radius: 16px;
 }
 
 hr{display: none;}
@@ -61,6 +63,7 @@ p{
 }
 
 p span{
+    color: #070204;
     background-color: antiquewhite;
     font-weight: bold;
     border-radius: 20px;
@@ -83,4 +86,26 @@ table img{
 
 table img:hover{
     border: 7px solid #040101;
+}
+
+ul {
+    margin-bottom: 12px ;
+}
+
+li, li a {
+    line-height: 20px;
+    color: tomato;
+    text-decoration: none;
+}
+
+li:hover, li a:hover {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
 }
